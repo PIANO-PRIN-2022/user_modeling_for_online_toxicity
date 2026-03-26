@@ -79,23 +79,26 @@ If you use this package in your research, please cite:
 
 ---
 
-### Eval_Moderation_OSN
-Evaluating Moderation in Online Social Network  
-*Pollacci, Milli, Guidotti*  
-🔗 https://github.com/GiulioRossetti/Eval_Moderation_OSN
-🔗 https://github.com/LauraPollacci/Eval_Moderation_OSN
+### FairParTree
+Balancing Fairness and Interpretability in Clustering with FairParTree  
+*Landi, Cascione, Marchiori Manerba, Guidotti*  
+🔗 https://github.com/fismimosa/FairTree
 
-Eval_Moderation_OSN is a simulation-based framework for studying the dynamics of toxic content propagation and the effectiveness of moderation strategies in Online Social Networks. 
-It provides implementations of the SEIZ (Susceptible–Exposed–Infected–Skeptic) epidemic model in three variants: a baseline model without moderation, a version with a basic moderator applying uniform interventions, 
-and a smart moderator version that leverages user psychological profiles based on Dark Triad traits to deliver personalized, threshold-driven moderation. 
-Personalized moderation proves significantly more effective than generic approaches in limiting the spread and persistence of toxic behavior, offering a flexible tool for designing adaptive content governance strategies.
+FairParTree is a fair and interpretable clustering algorithm that integrates fairness constraints directly into the clustering process, ensuring that the resulting clusters do not disproportionately disadvantage any protected group. Built on top of the ParTree tree-based clustering framework, it leverages decision tree structures to provide transparent, rule-based explanations for cluster assignments. It supports multiple fairness measures, including Balance, Max Fairness Cost, and a novel (k,l,t)-Fairness inspired by privacy frameworks. Extensive experiments show that FairParTree achieves competitive clustering quality while significantly improving fairness and interpretability compared to state-of-the-art methods.
 
 If you use this package in your research, please cite:
 ```bibtex
-@article{milli2025evaluating,
-  title={Evaluating Moderation in Online Social Network},
-  author={Milli, Letizia and Pollacci, Laura and Guidotti, Riccardo},
-  journal={arXiv preprint arXiv:2512.20225},
-  year={2025}
+@inproceedings{landi2025balancing,
+  title={Balancing Fairness and Interpretability in Clustering with FairParTree},
+  author={Landi, Cristiano and Cascione, Alessio and Manerba, Marta Marchiori and Guidotti, Riccardo},
+  booktitle={World Conference on Explainable Artificial Intelligence},
+  pages={104--127},
+  year={2025},
+  organization={Springer}
 }
 ```
+
+</details>
+
+---
+
