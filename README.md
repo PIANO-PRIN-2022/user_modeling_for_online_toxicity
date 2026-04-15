@@ -97,8 +97,5 @@ If you use this package in your research, please cite:
   organization={Springer}
 }
 ```
-
-</details>
-
 ---
 
